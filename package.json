@@ -1,0 +1,34 @@
+{
+  "name": "developer-connector",
+  "version": "1.0.0",
+  "description": "A place where developers can connect ",
+  "main": "index.js",
+  "scripts": {
+    "Start": "node server",
+    "server": "nodemon server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/benjaminthedev/Developer-Connector.git"
+  },
+  "author": "Benjamin Dordoigne",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/benjaminthedev/Developer-Connector/issues"
+  },
+  "homepage": "https://github.com/benjaminthedev/Developer-Connector#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "config": "^3.2.0",
+    "express": "^4.17.1",
+    "express-validator": "^6.1.1",
+    "gravatar": "^1.8.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.6.4",
+    "request": "^2.88.0"
+  },
+  "devDependencies": {
+    "concurrently": "^4.1.1",
+    "nodemon": "^1.19.1"
+  }
+}
